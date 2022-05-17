@@ -13,7 +13,9 @@
           {{ tag }}
         </li>
       </ul>
-      <h2 class="mt-2 text-3xl font-semibold">{{ post.title }}</h2>
+      <nuxt-link :to="`/blog/${post.slug}`">
+        <h2 class="mt-2 text-3xl font-semibold">{{ post.title }}</h2>
+      </nuxt-link>
     </a>
   </li>
 </template>
