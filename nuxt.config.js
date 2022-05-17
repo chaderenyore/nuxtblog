@@ -50,8 +50,7 @@ export default {
     presets: {
       preview: {
         modifiers: {
-          fit: 'cover',
-          format: 'jpg',
+          format: 'webp',
           width: 400,
           height: 300,
         },

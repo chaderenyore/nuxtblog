@@ -77,3 +77,9 @@ export default {
 	}
 }
 </script>
+
+<style scoped>
+  .nuxt-content h3 {
+    font-weight: bolder;
+  }
+</style>
